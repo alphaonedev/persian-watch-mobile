@@ -5,71 +5,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sentinel Watch — Morning Briefing | 2026-02-14</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
+*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;background:#f8f9fa;color:#1a1a2e;line-height:1.6;padding:0}
 .banner{background:linear-gradient(135deg,#1a56db,#2563eb);color:#fff;padding:24px 20px;text-align:center}
-.banner h1{font-size:1.6rem;font-weight:700;margin-bottom:4px}
-.banner .sub{font-size:0.85rem;opacity:0.85}
+.banner h1{font-size:1.6em;font-weight:700;letter-spacing:0.5px}
+.banner .subtitle{font-size:0.85em;opacity:0.9;margin-top:4px}
 .container{max-width:900px;margin:0 auto;padding:16px}
 .tier1-alert{background:#fef2f2;border:2px solid #dc2626;border-radius:8px;padding:16px;margin-bottom:16px}
-.tier1-alert h2{color:#dc2626;font-size:1.1rem;margin-bottom:8px}
-.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
-.card h2{color:#1a56db;font-size:1.05rem;margin-bottom:10px;border-bottom:2px solid #e2e8f0;padding-bottom:6px}
-.card h3{color:#1a1a2e;font-size:0.95rem;margin:10px 0 6px}
-.bluf{background:#eff6ff;border-left:4px solid #1a56db;padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:16px;font-weight:500}
-table{width:100%;border-collapse:collapse;margin:8px 0;font-size:0.88rem}
-th{background:#f1f5f9;text-align:left;padding:8px 10px;font-weight:600;border-bottom:2px solid #e2e8f0}
-td{padding:7px 10px;border-bottom:1px solid #e2e8f0}
-.green{color:#16a34a;font-weight:600}
-.red{color:#dc2626;font-weight:600}
-.yellow{color:#ca8a04;font-weight:600}
-.orange{color:#ea580c;font-weight:600}
-.muted{color:#64748b;font-size:0.82rem}
-ul{padding-left:18px;margin:6px 0}
-li{margin-bottom:4px;font-size:0.9rem}
-.fto-card{border-left:4px solid #ea580c}
-.domestic-card{border-left:4px solid #1a56db}
-.tag{display:inline-block;font-size:0.72rem;padding:2px 8px;border-radius:12px;font-weight:600;margin-right:4px}
+.tier1-alert h2{color:#dc2626;font-size:1.1em;margin-bottom:8px}
+.tier1-alert p{font-size:0.9em;color:#1a1a2e}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+.card h2{color:#1a56db;font-size:1.05em;margin-bottom:8px;border-bottom:1px solid #e2e8f0;padding-bottom:6px}
+.card h3{color:#1a1a2e;font-size:0.95em;margin:10px 0 4px}
+.card p,.card li{font-size:0.88em;color:#1a1a2e}
+.card ul{padding-left:18px;margin:4px 0}
+.card li{margin-bottom:3px}
+.muted{color:#64748b;font-size:0.82em}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:0.75em;font-weight:600;margin-right:4px}
 .tag-red{background:#fef2f2;color:#dc2626}
+.tag-orange{background:#fff7ed;color:#ea580c}
 .tag-yellow{background:#fefce8;color:#ca8a04}
 .tag-green{background:#f0fdf4;color:#16a34a}
 .tag-blue{background:#eff6ff;color:#1a56db}
-.tag-orange{background:#fff7ed;color:#ea580c}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:0.85em}
+th{background:#f1f5f9;text-align:left;padding:6px 8px;font-weight:600;color:#1a1a2e;border-bottom:2px solid #e2e8f0}
+td{padding:6px 8px;border-bottom:1px solid #e2e8f0}
+.bluf-box{background:#eff6ff;border-left:4px solid #1a56db;padding:14px;border-radius:0 8px 8px 0;margin-bottom:16px}
+.bluf-box p{font-size:0.92em;font-weight:500}
+.section-new{position:relative}
+.new-badge{background:#7c3aed;color:#fff;font-size:0.65em;padding:2px 6px;border-radius:3px;vertical-align:middle;margin-left:6px}
+.purple-border{border-left:4px solid #7c3aed}
+.darkblue-border{border-left:4px solid #1e3a5f}
+.teal-border{border-left:4px solid #0d9488}
+.brown-border{border-left:4px solid #92400e}
+@media(max-width:600px){.container{padding:10px}.banner h1{font-size:1.3em}.card{padding:12px}table{font-size:0.8em}}
 </style>
 </head>
 <body>
 
 <div class="banner">
-<h1>🛡️ SENTINEL WATCH — Morning Briefing</h1>
-<div class="sub">February 14, 2026 · 11:00 EST · Valentine's Day Edition · Classification: OPEN SOURCE</div>
+<h1>🛡️ SENTINEL WATCH — MORNING BRIEFING</h1>
+<div class="subtitle">February 14, 2026 | 12:12 EST | Classification: OPEN SOURCE</div>
 </div>
 
 <div class="container">
 
 <!-- TIER 1 ALERT -->
 <div class="tier1-alert">
-<h2>🔴 TIER 1 ALERT — CONSTITUTIONAL CRISIS / GOVERNMENT SHUTDOWN</h2>
-<p><strong>DHS shutdown active</strong> as of Feb 14. National Guard federalized in 3+ cities since June 2025 (first non-consensual federalization since 1960s). ICE perjury investigation involves two civilian deaths. DOJ attempted to indict opposition lawmakers; grand jury refused. <strong>Confidence: HIGH.</strong></p>
+<h2>⚠️ TIER 1 ALERT — DOMESTIC CONSTITUTIONAL CRISIS</h2>
+<p><strong>DHS shutdown active</strong> as of Feb 14. National Guard federalized in 3+ cities without state consent since June 2025 (first since 1960s). ICE perjury investigation involves civilian deaths. DOJ attempted to indict opposition lawmakers; grand jury refused. Second major shutdown in 90 days during active military deployments and law enforcement credibility crisis. <span class="tag tag-red">TIER 1</span></p>
 </div>
 
 <!-- BLUF -->
-<div class="bluf">
-<strong>⚡ BOTTOM LINE UP FRONT:</strong> Domestic institutional crisis dominates — DHS shutdown (day 1), federal law enforcement credibility collapse from perjury/shooting scandals, and unprecedented National Guard federalization create a governance vacuum during active military buildup against Iran (dual carrier deployment). Markets enter Presidents Day weekend with VIX elevated at 20.82, China ordering banks to reduce US Treasury purchases, and gold above $5,000. <strong>Overall posture: ELEVATED across all domains. Confidence: HIGH.</strong>
+<div class="bluf-box">
+<p><strong>BOTTOM LINE UP FRONT:</strong> Overall threat posture <span class="tag tag-orange">ELEVATED</span> across multiple domains. Domestic governance crisis (DHS shutdown + Guard federalization + law enforcement perjury) at TIER 1. Persian Gulf escalation (dual carrier deployment) at TIER 2 with high trajectory. Markets fragile (VIX 20.82, China Treasury directive, record margin debt). Strategic nuclear posture GREEN. Four new intelligence domains (China-Taiwan, Russia-NATO, Cyber, Supply Chain) now integrated into full fleet coverage. <em>Confidence: HIGH.</em></p>
 </div>
 
 <!-- TIER ASSESSMENT -->
 <div class="card">
 <h2>📊 Tier Assessment</h2>
 <table>
-<tr><th>Domain</th><th>Tier</th><th>Trend</th><th>Key Driver</th></tr>
-<tr><td>Persian Gulf / Iran</td><td><span class="orange">TIER 2 — AMBER</span></td><td>↑ Escalating</td><td>Dual carrier deployment, weeks-long ops planning</td></tr>
-<tr><td>Doomsday / NC3</td><td><span class="green">TIER 4 — GREEN</span></td><td>→ Stable</td><td>Routine posture, no E-4B/E-6B surge</td></tr>
-<tr><td>FTO / Homeland</td><td><span class="orange">TIER 2 — ELEVATED</span></td><td>↑ Escalating</td><td>27 TdA charged, SOUTHCOM lethal strike, 1M pill seizure</td></tr>
-<tr><td><strong>Domestic USA</strong></td><td><span class="red">TIER 1 — CRITICAL</span></td><td>↑↑ Escalating</td><td>DHS shutdown + Guard federalization + perjury crisis</td></tr>
-<tr><td>Markets</td><td><span class="yellow">TIER 2 — ELEVATED</span></td><td>↑ Deteriorating</td><td>VIX 20.82, China Treasury directive, margin records</td></tr>
-<tr><td>Macro</td><td><span class="yellow">TIER 2 — ELEVATED</span></td><td>→ Mixed</td><td>Soft CPI offset by China de-dollarization signal</td></tr>
-<tr><td>Threat Vectors</td><td><span class="green">TIER 3 — ROUTINE</span></td><td>→ Stable</td><td>Active exploits (SCCM, SolarWinds); El Paso TFR</td></tr>
-<tr><td>AI / Tech</td><td><span class="yellow">TIER 2 — WATCH</span></td><td>↑ Accelerating</td><td>Repricing risk 82/100, Chinese Spring Festival blitz</td></tr>
+<tr><th>Domain</th><th>Tier</th><th>Trend</th></tr>
+<tr><td>Domestic USA</td><td><span class="tag tag-red">TIER 1</span></td><td>↑ DHS shutdown + Guard crisis</td></tr>
+<tr><td>Persian Gulf / Iran</td><td><span class="tag tag-orange">TIER 2</span></td><td>↑ Dual carrier deployment</td></tr>
+<tr><td>Markets / Macro</td><td><span class="tag tag-orange">TIER 2</span></td><td>↑ VIX spike, China Treasury directive</td></tr>
+<tr><td>FTO / Homeland</td><td><span class="tag tag-orange">TIER 2</span></td><td>→ Cartel enforcement surge</td></tr>
+<tr><td>China-Taiwan <span class="new-badge">NEW</span></td><td><span class="tag tag-yellow">AMBER</span></td><td>↑ 42-aircraft ADIZ incursion</td></tr>
+<tr><td>Russia-NATO <span class="new-badge">NEW</span></td><td><span class="tag tag-yellow">TIER 3</span></td><td>→ Geneva talks Feb 17-18</td></tr>
+<tr><td>Cyber <span class="new-badge">NEW</span></td><td><span class="tag tag-orange">TIER 2</span></td><td>↑ Critical zero-days exploited</td></tr>
+<tr><td>Supply Chain <span class="new-badge">NEW</span></td><td><span class="tag tag-orange">TIER 2</span></td><td>↑ Hormuz escalation risk</td></tr>
+<tr><td>Doomsday / NC3</td><td><span class="tag tag-green">GREEN</span></td><td>→ All vectors nominal</td></tr>
+<tr><td>Threat Vectors</td><td><span class="tag tag-green">TIER 3</span></td><td>→ Routine</td></tr>
+<tr><td>News / World</td><td><span class="tag tag-red">TIER 1</span></td><td>↑ Iran carrier deployment</td></tr>
 </table>
 </div>
 
@@ -77,212 +84,386 @@ li{margin-bottom:4px;font-size:0.9rem}
 <div class="card">
 <h2>🔄 Key Changes Since Last Briefing</h2>
 <ul>
-<li><span class="tag tag-red">NEW</span> <strong>DHS Shutdown Active</strong> — Second shutdown in &lt;6 months. Congress on recess, minimum 10-day duration.</li>
-<li><span class="tag tag-red">NEW</span> <strong>Domestic USA Watch Section Added</strong> — Tracks institutional stability, law enforcement credibility, constitutional developments.</li>
-<li><span class="tag tag-red">ESCALATION</span> <strong>Operation Metro Surge Terminated</strong> — 3,000-agent immigration operation ended after perjury/shooting scandals.</li>
-<li><span class="tag tag-orange">ESCALATION</span> <strong>Dual Carrier Deployment</strong> — USS Ford + Lincoln heading to Persian Gulf. Reuters reports "weeks-long operations" planning.</li>
-<li><span class="tag tag-orange">ESCALATION</span> <strong>SOUTHCOM Lethal Strike</strong> — US military killed 3 narco-traffickers in Caribbean kinetic strike.</li>
-<li><span class="tag tag-yellow">NEW</span> <strong>China Treasury Directive</strong> — PBOC ordered banks to reduce US Treasury purchases (Bloomberg, 7hrs ago).</li>
-<li><span class="tag tag-yellow">SHIFT</span> <strong>VIX Spike to 20.82</strong> — +18% Thursday, largest 2026 move. FINRA margin debt at records.</li>
-<li><span class="tag tag-blue">NEW</span> <strong>27 Tren de Aragua Members Charged</strong> — Largest TdA enforcement action to date (murder, sex trafficking, racketeering).</li>
+<li><strong>TIER 1 DOMESTIC ALERT:</strong> DHS shutdown active, National Guard federalization ongoing, ICE perjury investigation — constitutional crisis deepening</li>
+<li><strong>PERSIAN GULF:</strong> USS Ford + Lincoln dual carrier deployment — first since June 2025 "Midnight Hammer"; Reuters reports "weeks-long operations" planning</li>
+<li><strong>MARKETS:</strong> VIX spiked 18% to 20.82; China ordered banks to reduce US Treasury purchases (structural de-dollarization); FINRA margin debt at records</li>
+<li><strong>CPI:</strong> Softer than expected (2.4% y/y vs 2.5% est) — dovish signal but Fed on hold</li>
+<li><strong>China-Taiwan Watch <span class="new-badge">NEW</span>:</strong> First fleet collection — 42-aircraft ADIZ incursion, Wang Yi Munich rhetoric, Applied Materials $252M fine</li>
+<li><strong>Russia-NATO Watch <span class="new-badge">NEW</span>:</strong> First fleet collection — Geneva talks Feb 17-18, NATO Hedgehog exercise exposed vulnerabilities, energy grid strikes continue</li>
+<li><strong>Cyber Watch <span class="new-badge">NEW</span>:</strong> First fleet collection — BeyondTrust CVE-2026-1731 (CVSS 9.9) actively exploited, 6 Microsoft zero-days, state APTs weaponizing Gemini AI</li>
+<li><strong>Supply Chain Watch <span class="new-badge">NEW</span>:</strong> First fleet collection — Hormuz escalation risk HIGH, container rates declining, TSMC capex $52-56B</li>
 </ul>
 </div>
 
 <!-- PERSIAN WATCH -->
-<div class="card">
-<h2>🇮🇷 Persian Watch Update</h2>
-<p><span class="tag tag-orange">AMBER</span> <strong>Confidence: HIGH</strong></p>
+<div class="card" style="border-left:4px solid #ea580c">
+<h2>🇮🇷 Persian Watch — Strike Probability Assessment</h2>
+<p><span class="tag tag-orange">AMBER</span> <span class="tag tag-orange">TIER 2</span> | Confidence: HIGH</p>
+<h3>Geopolitical Vectors</h3>
 <ul>
-<li><strong>Dual Carrier Deployment:</strong> USS Ford (CVN-78) redeploying from Caribbean to join USS Lincoln in CENTCOM AOR. First dual deployment since June 2025 "Midnight Hammer" strikes.</li>
-<li><strong>Operations Planning:</strong> Reuters exclusive — US military preparing for "potentially weeks-long Iran operations." Planning described as "more complex" than June 2025 one-off strike model.</li>
-<li><strong>Diplomatic Track Stalled:</strong> IAEA Chief Grossi says inspection deal "technically possible but terribly difficult." Iran fortifying Kolang Gaz La Mountain nuclear facility entrances.</li>
-<li><strong>Netanyahu Coordination:</strong> DC meetings this week pushing maximalist demands — ballistic missile limits + proxy funding cuts.</li>
-<li><strong>Market Disconnect:</strong> No defense/energy sector positioning surge. Institutions assess protracted campaign vs. imminent strike.</li>
-<li><strong>Strike Probability:</strong> MEDIUM-HIGH (preparation phase). No imminent indicators (EAM/NOTAM/NC3 quiet).</li>
+<li><strong>Dual Carrier Deployment:</strong> USS Ford (CVN-78) + USS Lincoln in CENTCOM AOR — first since June 2025 Midnight Hammer strikes</li>
+<li><strong>Reuters Exclusive:</strong> US military preparing "potentially weeks-long Iran operations" — authorized leak for pressure signaling</li>
+<li><strong>IAEA Stalled:</strong> Chief Grossi calls inspection deal "terribly difficult"; Iran fortifying Kolang Gaz La Mountain facility</li>
+<li><strong>Netanyahu Maximalist:</strong> Pressing for ballistic missile limits + proxy cuts + nuclear dismantlement</li>
+<li><strong>Iran Hardening:</strong> Fortifying nuclear sites, EU extended airspace warning through March 31</li>
 </ul>
-<p class="muted"><strong>Watch for:</strong> Persian Gulf NOTAMs (72-hr strike indicator), E-4B/E-6B sorties, oil futures volatility spike.</p>
+<h3>Stabilizers</h3>
+<ul>
+<li>NC3/Doomsday: GREEN — no E-4B/E-6B surge, no EAM escalation, no Persian Gulf NOTAMs</li>
+<li>Markets not pricing imminent strike (no XLE options surge)</li>
+<li>200K anti-regime protesters in Munich — internal Iranian instability may obviate military action</li>
+</ul>
+<h3>Anomalies</h3>
+<ul>
+<li>Ford rapid turnaround from Venezuela op — unusual tempo suggesting urgency</li>
+<li>Chinese satellite intel may enable Iranian ASBM targeting of US carriers</li>
+</ul>
+<p class="muted">Strike window indicators: Watch for Persian Gulf NOTAMs (72-hr lead), EAM surge, oil futures volatility spike.</p>
 </div>
 
 <!-- DOOMSDAY WATCH -->
-<div class="card">
-<h2>☢️ Doomsday Watch — NC3/Strategic Posture</h2>
-<p><span class="tag tag-green">GREEN</span> <strong>All 9 vectors nominal</strong></p>
+<div class="card" style="border-left:4px solid #16a34a">
+<h2>☢️ Doomsday Watch — NC3 / Strategic Posture</h2>
+<p><span class="tag tag-green">GREEN</span> | NHI Probability: LOW (10-15%)</p>
 <table>
 <tr><th>Vector</th><th>Status</th><th>Detail</th></tr>
-<tr><td>Nuclear Command Aircraft (E-4B/E-6B)</td><td class="green">GREEN</td><td>Single routine E-4B from JBA; no E-6B activity</td></tr>
-<tr><td>EAM/Strategic Traffic</td><td class="green">GREEN</td><td>3 EAMs within 2-5/day baseline; no SKYMASTER</td></tr>
-<tr><td>Bomber/Strategic Aviation</td><td class="green">GREEN</td><td>Single B-52H local training; no B-2 or AWACS</td></tr>
-<tr><td>Russian Strategic Comms</td><td class="green">GREEN</td><td>UVB-76 at baseline (~1 msg); no surge</td></tr>
-<tr><td>Airspace Restrictions</td><td class="green">GREEN</td><td>No strategic TFRs; routine NOTAMs</td></tr>
-<tr><td>OSINT Analyst Assessment</td><td class="green">GREEN</td><td>@neetintel reports quiet period; no flags</td></tr>
-<tr><td>Tactical Exercises</td><td class="green">GREEN</td><td>No active exercise callsigns detected</td></tr>
-<tr><td>Electronic Warfare</td><td class="green">GREEN</td><td>No GPS spoofing/GNSS interference over CONUS</td></tr>
-<tr><td>Naval Positioning</td><td class="green">GREEN</td><td>Routine Mediterranean transit; no sub reports</td></tr>
+<tr><td>V1 Nuclear Command Aircraft</td><td><span class="tag tag-green">GREEN</span></td><td>Single E-4B routine from JBA, no E-6B</td></tr>
+<tr><td>V2 EAM/Strategic Traffic</td><td><span class="tag tag-green">GREEN</span></td><td>3 EAMs within 2-5/day baseline</td></tr>
+<tr><td>V3 Bomber/Strategic Aviation</td><td><span class="tag tag-green">GREEN</span></td><td>Single B-52H local training</td></tr>
+<tr><td>V4 Russian Strategic Comms</td><td><span class="tag tag-green">GREEN</span></td><td>UVB-76 at baseline (~1 msg)</td></tr>
+<tr><td>V5 Airspace Restrictions</td><td><span class="tag tag-green">GREEN</span></td><td>No TFRs, routine NOTAMs</td></tr>
+<tr><td>V6 OSINT Analyst</td><td><span class="tag tag-green">GREEN</span></td><td>Quiet period confirmed</td></tr>
+<tr><td>V7 Tactical/Exercise</td><td><span class="tag tag-green">GREEN</span></td><td>No active exercise callsigns</td></tr>
+<tr><td>V8 Electronic Warfare</td><td><span class="tag tag-green">GREEN</span></td><td>No GPS spoofing/GNSS interference</td></tr>
+<tr><td>V9 Naval Positioning</td><td><span class="tag tag-green">GREEN</span></td><td>CVN-69 routine Med transit</td></tr>
 </table>
-<p class="muted"><strong>NHI Probability:</strong> LOW (10-15%) — Normal USSTRATCOM readiness. | <strong>Anomalies:</strong> None detected.</p>
+<p class="muted">All 9 vectors nominal. No anomalies detected. USSTRATCOM readiness at baseline.</p>
 </div>
 
 <!-- FTO WATCH -->
-<div class="card fto-card">
+<div class="card" style="border-left:4px solid #dc2626">
 <h2>🎯 FTO Watch — US Homeland Threat</h2>
-<p><span class="tag tag-orange">ELEVATED</span> <strong>Trend: ↑ ESCALATING</strong></p>
-
-<h3>Cartel / Transnational Crime</h3>
+<p><span class="tag tag-orange">TIER 2 — ELEVATED</span> | Trend: ESCALATING</p>
+<h3>Cartel Activity — HIGH</h3>
 <ul>
-<li><strong>SOUTHCOM Lethal Strike (Feb 14):</strong> US military killed 3 narco-traffickers in Caribbean kinetic operation — escalation of military counter-cartel ops under terrorist designation authority.</li>
-<li><strong>27 Tren de Aragua Members Charged:</strong> Largest TdA enforcement action to date. Murder, sex trafficking, kidnapping, racketeering across US jurisdictions. Joint Task Force Vulcan expanded from MS-13 to TdA.</li>
-<li><strong>Sinaloa Hitmen Arrests (Chula Vista, CA):</strong> 3 cartel associates hired teenage hitmen for assassination attempt. Cartel violence on US soil.</li>
-<li><strong>1 Million Fentanyl Pills Seized (Nogales, AZ):</strong> Single-day CBP seizure. Florida gang bust: 10 lbs fentanyl (3.3M lethal doses), 51 arrests.</li>
-<li><strong>Mexico Transfers 37 Cartel Leaders to US:</strong> Sinaloa, CJNG, Northeast Cartel leaders transferred under Trump admin pressure.</li>
-<li><strong>El Paso Counter-Drone Ops:</strong> CBP deployed LOCUST laser system. 27,000+ cartel drone detections in 6 months. National Defense Airspace declared (unprecedented peacetime).</li>
+<li><strong>SOUTHCOM kinetic strike:</strong> 3 narco-traffickers killed in Caribbean vessel strike — military escalation of counter-cartel ops</li>
+<li><strong>Sinaloa on US soil:</strong> 3 associates arrested for hiring teen hitmen in Chula Vista, CA (assassination attempt)</li>
+<li><strong>Fentanyl volume:</strong> 1M pills seized Nogales AZ (single day); 10 lbs FL (3.3M lethal doses); 188K lbs in San Diego vault</li>
+<li><strong>Mexico extraditions:</strong> 37 cartel leaders transferred to US custody (Sinaloa, CJNG, Northeast)</li>
 </ul>
-
-<h3>Traditional FTOs</h3>
+<h3>Transnational Gangs — HIGH</h3>
 <ul>
-<li><strong>No domestic incidents past 24h.</strong> ISIS/AQ/Hamas/Hezbollah activity limited to overseas theaters.</li>
-<li>AFRICOM continues counter-ISIS campaign in Somalia.</li>
+<li><strong>Tren de Aragua:</strong> DOJ charged 27 members — largest TdA enforcement action to date (murder, sex trafficking, racketeering)</li>
+<li><strong>Florida:</strong> 51 gang suspects arrested, 78 lbs meth + 10 lbs fentanyl seized</li>
 </ul>
-
-<p class="muted"><strong>Cross-ref:</strong> El Paso TFR correlates with Threat Watch airspace vector. Ford redeployment from Caribbean to CENTCOM ties to Persian Watch. SOUTHCOM strike under cartel-as-terrorist authority sets kinetic precedent.</p>
+<h3>Traditional FTOs — LOW (Homeland)</h3>
+<ul>
+<li>No ISIS/AQ/Hamas/Hezbollah domestic incidents in 24h. Activity limited to overseas theaters.</li>
+</ul>
+<h3>Border</h3>
+<ul>
+<li>El Paso counter-drone operations: 27K+ cartel drone detections in 6 months; CBP laser weapons deployed; Valentine's balloons mistakenly shot down</li>
+</ul>
 </div>
 
-<!-- DOMESTIC USA WATCH -->
-<div class="card domestic-card">
-<h2>🇺🇸 Domestic USA Watch — US Stability Monitor</h2>
-<p><span class="tag tag-red">DEGRADED</span> <strong>Trend: ↑↑ NEGATIVE TRAJECTORY</strong></p>
-
-<h3>DHS Shutdown (Day 1 — Active)</h3>
+<!-- DOMESTIC USA -->
+<div class="card" style="border-left:4px solid #dc2626">
+<h2>🇺🇸 Domestic USA Watch — Stability Monitor</h2>
+<p><span class="tag tag-red">TIER 1</span> | Status: DEGRADED | Confidence: HIGH</p>
+<h3>Government Shutdown — ACTIVE</h3>
 <ul>
-<li>Funding lapsed Feb 14 00:01 EST. Second shutdown in &lt;6 months (prior: 43 days, Oct-Nov 2025).</li>
-<li>Congress on recess — minimum 10-day duration expected. 800K+ employees affected.</li>
-<li>~2/3 of DHS budget funded via advance appropriations; essential personnel continue working.</li>
-<li><strong>Cascading Risk:</strong> Homeland security governance vacuum during immigration enforcement crisis and active military buildup.</li>
+<li>DHS funding lapsed Feb 14 — 2nd shutdown in &lt;6 months (previous: 43 days Oct-Nov 2025)</li>
+<li>Congress on recess, minimum 10-day duration expected. 800K+ employees affected.</li>
 </ul>
-
-<h3>Federal Law Enforcement Credibility Crisis</h3>
+<h3>Law Enforcement Crisis — CRITICAL</h3>
 <ul>
-<li><strong>Operation Metro Surge Terminated:</strong> 3,000-agent Minneapolis immigration operation ended after multiple shooting incidents.</li>
-<li><strong>Perjury Investigation:</strong> Federal probe into ICE officer testimonies. DOJ dropped charges against civilians after evidence contradicted official complaints.</li>
-<li><strong>Civilian Deaths:</strong> Renee Good, Alex Pretti (Minneapolis) killed by federal officers. DHS labeled civilians "domestic terrorists" without evidence.</li>
-<li><strong>DOJ Political Prosecution Attempt:</strong> Grand jury refused to indict Democratic lawmakers opposing Guard deployments.</li>
-<li><strong>Policy Shift:</strong> DHS announced no more sweeping city-specific immigration ops; Border Patrol will not participate in interior enforcement.</li>
+<li><strong>Operation Metro Surge terminated:</strong> ~3,000 agents deployed Minneapolis, 4,000+ arrests, multiple shooting incidents</li>
+<li><strong>Perjury investigation:</strong> ICE officers under probe for false testimony; DOJ dropped charges after evidence contradicted official complaints</li>
+<li><strong>Civilian fatalities:</strong> Renee Good, Alex Pretti killed by federal officers; DHS labeled civilians "domestic terrorists" without evidence</li>
+<li><strong>Political prosecution:</strong> DOJ attempted to indict opposition lawmakers — grand jury refused</li>
 </ul>
-
 <h3>National Guard Federalization</h3>
 <ul>
-<li>Federal deployments ongoing in LA + 2 cities since June 2025. First non-consensual federalization since Civil Rights era (1960s).</li>
-<li>4 state AGs filed lawsuits. No de-escalation timeline identified.</li>
-<li><strong>Constitutional Concern:</strong> Insurrection Act invocation for immigration enforcement — unprecedented peacetime use.</li>
+<li>Guard deployed in LA + 2 cities since June 2025 without gubernatorial consent — first since 1960s Civil Rights era</li>
+<li>4 state AGs filed lawsuits; no de-escalation timeline</li>
 </ul>
-
-<h3>Economic & Social Indicators</h3>
+<h3>Other Indicators</h3>
 <ul>
-<li><strong>Tech Layoffs:</strong> 37,478 jobs lost YTD across 60 events (Block, Autodesk, Salesforce ~1,000 each).</li>
-<li><strong>LAUSD Budget Crisis:</strong> $191M deficit, potential teacher strike.</li>
-<li><strong>Measles Outbreak:</strong> 3 confirmed deaths (2 children TX, 1 adult NM). Vaccine-preventable fatalities continuing.</li>
-<li><strong>Florida Wildfire Risk:</strong> Worst drought since 2001. Critical wildfire vulnerability heading into season.</li>
+<li><strong>Public Health:</strong> Measles outbreak — 3 deaths (2 children TX, 1 adult NM), all unvaccinated</li>
+<li><strong>Economy:</strong> 37,478 tech layoffs YTD across 60 events; LAUSD $191M deficit; rural healthcare bankruptcies</li>
+<li><strong>Infrastructure:</strong> Texas grid stable (5-year anniversary of 2021 blackouts); Florida extreme drought = wildfire risk</li>
 </ul>
-
-<p class="muted"><strong>Cross-ref:</strong> DHS shutdown overlaps FTO Watch enforcement capacity concerns. Tech layoffs align with Macro Watch AI substitution fears. El Paso TFR/Guard deployments connect to FTO Watch border operations. 37K tech layoffs echo Market Watch sell-first-assess-later regime.</p>
 </div>
 
-<!-- ENERGY PARADOX DELTA -->
+<!-- CHINA-TAIWAN WATCH — NEW -->
+<div class="card section-new purple-border">
+<h2>🇨🇳🇹🇼 China-Taiwan Watch — Indo-Pacific Flashpoint <span class="new-badge">NEW</span></h2>
+<p><span class="tag tag-yellow">AMBER</span> | Confidence: HIGH</p>
+<h3>PLA Activity</h3>
+<ul>
+<li><strong>42 PLA aircraft detected Feb 13</strong> (J-10, J-16, KJ-500 AEWC) — 32 crossed Taiwan Strait median line</li>
+<li>11 PLAN vessels operating simultaneously; cumulative early Feb: 113 aircraft, 88 vessels</li>
+<li>PLA Eastern Theater Command radar-locked foreign stealth aircraft at 800m</li>
+<li>Xi Jinping Lunar New Year address emphasized combat training and readiness</li>
+</ul>
+<h3>Diplomatic Temperature</h3>
+<ul>
+<li><strong>Wang Yi (Munich):</strong> Warned US interference could lead to "confrontation"; accused US of "plotting to split China through Taiwan"</li>
+<li>Taiwan President Lai called on China to "show restraint, act like a major power"</li>
+<li>Japan-China fishing vessel seizure adds to regional friction</li>
+</ul>
+<h3>Semiconductor Nexus</h3>
+<ul>
+<li><strong>Applied Materials fined $252M</strong> for routing chips to SMIC through South Korea</li>
+<li>TSMC raised 2026 capex to $52-56B; maintains N-2 rule for overseas fabs</li>
+<li>CoWoS advanced packaging remains strained — AI demand outpacing supply</li>
+</ul>
+<h3>US Posture — REDUCED</h3>
+<ul>
+<li>USS Ford redirected to Middle East — reduces Indo-Pacific carrier availability</li>
+<li>37 US lawmakers wrote Taiwan officials re: stalled defense budget</li>
+<li>No Pacific Fleet carrier transits near Taiwan in 24h</li>
+</ul>
+<h3>Cross-Domain</h3>
+<ul>
+<li><strong>Market impact:</strong> TSM critical fabrication chokepoint; any Taiwan disruption = existential semiconductor risk</li>
+<li><strong>Dual-theater strain:</strong> Ford Middle East redeployment creates Indo-Pacific carrier gap</li>
+<li><strong>Persian Watch link:</strong> Chinese satellite intel may enable Iranian ASBM targeting of US carriers</li>
+</ul>
+<p class="muted">Watch: Lunar New Year Feb 17-23 for operational pause or escalation; US Pacific Fleet carrier movements.</p>
+</div>
+
+<!-- RUSSIA-NATO WATCH — NEW -->
+<div class="card section-new darkblue-border">
+<h2>🇷🇺 Russia-NATO Watch — European Theater <span class="new-badge">NEW</span></h2>
+<p><span class="tag tag-yellow">TIER 3 / AMBER</span> | Confidence: HIGH</p>
+<h3>Frontline Status</h3>
+<ul>
+<li>Ukrainian localized counterattacks near Dnipropetrovsk-Zaporizhzhia border after Russian C2 disruption</li>
+<li>Russian claims of Hlushkivka (Kharkiv) and Sydorivka (Sumy) capture — Ukraine disputes</li>
+<li>ISW: Limited tactical gains, not broad counteroffensive; frontline remains attritional</li>
+</ul>
+<h3>Nuclear Rhetoric — STABLE</h3>
+<ul>
+<li>Burevestnik cruise missile testing continues (development phase, not deployment)</li>
+<li>No new nuclear threats or elevated readiness statements in 24h</li>
+<li><strong>Doomsday cross-ref:</strong> Russian UVB-76 at baseline, no strategic escalation signals</li>
+</ul>
+<h3>NATO Posture</h3>
+<ul>
+<li><strong>Hedgehog 2025 lessons published:</strong> Ukrainian drone teams decimated two NATO battalions in one day — exposed Alliance vulnerabilities</li>
+<li>Dynamic Front exercise: US Army rehearsing 1,500 targets/day suppression fires</li>
+<li>Arctic Sentry: Joint Force Command Norfolk securing GIUK gap</li>
+<li>Munich Security Conference: Focus on burden-sharing, European defense autonomy</li>
+</ul>
+<h3>Energy Infrastructure — UNDER ATTACK</h3>
+<ul>
+<li>Russia struck Ukrainian power grid Feb 7 (Burshtynska, Dobrotvirska thermal plants)</li>
+<li>Mykolaiv region hit by Shahed drones Feb 14</li>
+<li>Druzhba pipeline hit Jan 27, still burning — suspends Russian oil transit to Hungary/Slovakia</li>
+<li><strong>Ukraine deep strike:</strong> Hit Russian refinery 1,750km from border — deepest ever</li>
+<li><strong>Macro cross-ref:</strong> Druzhba disruption affects EU energy supply; crude at $62.90</li>
+</ul>
+<h3>Peace Talks</h3>
+<ul>
+<li><strong>Geneva Feb 17-18:</strong> First trilateral US-Ukraine-Russia talks on European soil</li>
+<li>Russia sending Medinsky; reports of "broad agreement" on ceasefire framework — Russia dismisses</li>
+<li>Trump pressuring Ukraine for territorial concessions before midterms</li>
+<li>Low probability of durable ceasefire in Q1 2026</li>
+</ul>
+<h3>Attrition Data</h3>
+<ul>
+<li>Russian losses since Feb 2022: >1.25M personnel, 11,668 tanks, 24,031 AFVs, 37,282 artillery</li>
+<li>No new mass mobilization wave detected</li>
+</ul>
+</div>
+
+<!-- CYBER WATCH — NEW -->
+<div class="card section-new teal-border">
+<h2>🔒 Cyber Threat Posture <span class="new-badge">NEW</span></h2>
+<p><span class="tag tag-orange">TIER 2 — ELEVATED</span> | Confidence: HIGH</p>
+<h3>Active Zero-Days & CISA KEV</h3>
+<table>
+<tr><th>CVE</th><th>Product</th><th>CVSS</th><th>Status</th></tr>
+<tr><td>CVE-2026-1731</td><td>BeyondTrust RS/PRA</td><td><strong>9.9</strong></td><td><span class="tag tag-red">EXPLOITED</span> — Patch by Feb 16</td></tr>
+<tr><td>CVE-2025-40536</td><td>Microsoft ConfigMgr</td><td><strong>9.8</strong></td><td><span class="tag tag-red">EXPLOITED</span> — Patch by Mar 5</td></tr>
+<tr><td>CVE-2026-21510</td><td>Windows Shell</td><td>8.8</td><td><span class="tag tag-red">EXPLOITED</span> — Rootkit chain risk</td></tr>
+<tr><td>CVE-2025-14174</td><td>Apple iOS/macOS</td><td>—</td><td><span class="tag tag-red">EXPLOITED</span> — Targeted attacks</td></tr>
+</table>
+<p class="muted">Microsoft Feb 2026 Patch Tuesday: 54 CVEs, 6 zero-days already exploited. Additional KEV additions: SolarWinds, Notepad++, Apple dyld.</p>
+
+<h3>Ransomware Landscape</h3>
+<ul>
+<li><strong>Qilin + Cl0p</strong> leading campaigns — manufacturing, healthcare, financial, legal sectors</li>
+<li><strong>Under Armour breach</strong> by Everest group — millions of records leaked</li>
+<li>AI-driven ransomware attacks surging; most go unreported</li>
+<li>No confirmed US hospital/critical infrastructure attacks in 24h</li>
+</ul>
+<h3>State-Sponsored APT Activity — HIGH</h3>
+<ul>
+<li><strong>Gemini AI weaponized:</strong> APT42 (Iran) = 75% of AI misuse; China/Russia/DPRK also active</li>
+<li>Multi-nation coordinated targeting of Defense Industrial Base</li>
+<li>Russian Signal exploit weaponizing device-linking feature against Ukrainian military</li>
+<li>APT28 (Russia) linked to Microsoft Patch Tuesday exploitation</li>
+</ul>
+<h3>Data Breaches</h3>
+<ul>
+<li><strong>6.8 billion email addresses</strong> in compilation leak — massive credential-stuffing risk</li>
+<li>Odido (Dutch telecom): 6.2M customer records exposed</li>
+</ul>
+<h3>ICS/SCADA</h3>
+<ul>
+<li>Attack trend accelerating against manufacturing (600 entities 2025) and healthcare (477 entities)</li>
+<li>No confirmed active US critical infrastructure compromise in 24h</li>
+<li><strong>Threat Watch cross-ref:</strong> SCCM + SolarWinds vulnerabilities target enterprise infrastructure management</li>
+</ul>
+</div>
+
+<!-- SUPPLY CHAIN — NEW -->
+<div class="card section-new brown-border">
+<h2>🚢 Supply Chain Monitor <span class="new-badge">NEW</span></h2>
+<p><span class="tag tag-orange">TIER 2 — ELEVATED</span> | Confidence: HIGH</p>
+<h3>Strait of Hormuz — HIGH RISK</h3>
+<ul>
+<li>Iranian naval activity threatening closure; Iranian vessels threatened US-flagged tanker</li>
+<li>US deployed 2nd carrier + shot down Iranian drone</li>
+<li>Iran threatens retaliation if US disrupts oil tanker traffic</li>
+<li><strong>Persian Watch cross-ref:</strong> Dual carrier deployment = direct Hormuz security presence; strike campaign could trigger closure</li>
+</ul>
+<h3>Red Sea / Houthi</h3>
+<ul>
+<li>Houthi attacks ongoing — 2 ships sunk in past month</li>
+<li>Suez bypass via Cape of Good Hope priced into logistics; no new escalation 24h</li>
+</ul>
+<h3>Panama Canal</h3>
+<ul>
+<li>Stable. Mexico's Tehuantepec Corridor railway launching mid-2026 as alternative</li>
+<li>No drought restrictions or capacity issues</li>
+</ul>
+<h3>Shipping Rates — DECLINING</h3>
+<ul>
+<li>World container spot rates falling; demand peaked early before Lunar New Year</li>
+<li>Scheduled sailing cancellations (blankings) increasing — demand softness signal</li>
+<li>Baltic Dry Index: no fresh 24h data</li>
+<li><strong>Macro cross-ref:</strong> Declining rates align with crude weakness ($62.90) and IEA 3.7M bpd surplus warning</li>
+</ul>
+<h3>Semiconductor Supply Chain</h3>
+<ul>
+<li>TSMC capex $52-56B; CoWoS packaging remains bottleneck</li>
+<li>Memory manufacturers expanding capacity (SK Hynix, Micron, Nanya)</li>
+<li>US-Taiwan 40% chip relocation goal "deemed unfeasible"</li>
+</ul>
+<h3>Critical Minerals & Ports</h3>
+<ul>
+<li>US government taking equity stakes in domestic lithium/cobalt/copper mines</li>
+<li>No major port congestion, labor strikes, or operational disruptions</li>
+</ul>
+</div>
+
+<!-- ENERGY PARADOX -->
 <div class="card">
 <h2>⚡ Energy Paradox Delta</h2>
+<p>WTI crude: <strong>$62.90</strong> (flat). Energy sector quiet — no paradox escalation signals.</p>
 <ul>
-<li><strong>WTI Crude:</strong> $62.60–$62.89 — weak, 2nd weekly loss. IEA surplus warning (3.7M bpd).</li>
-<li><strong>XLE Unusual Activity:</strong> No notable signals detected. No Iran-specific unusual options activity.</li>
-<li><strong>Deep OTM Call IV:</strong> No standout changes. Markets not pricing imminent Iran strike.</li>
-<li><strong>Assessment:</strong> Energy sector quiet despite dual carrier deployment. <strong>Divergence worth watching</strong> — if markets are wrong on Iran timeline, energy repricing would be violent.</li>
+<li>No unusual XLE or defense sector options activity detected</li>
+<li>Markets NOT pricing imminent Iran strike despite dual carrier deployment</li>
+<li>IEA warned of 3.7M bpd surplus — bearish pressure</li>
+<li>Druzhba pipeline disruption (Russia-NATO) not yet reflected in crude pricing</li>
+<li><strong>Paradox:</strong> Maximum geopolitical risk at Persian Gulf chokepoint + flat energy pricing = institutional view of protracted pressure campaign, not kinetic action</li>
 </ul>
 </div>
 
 <!-- MARKET POSTURE -->
 <div class="card">
 <h2>📈 Market Posture</h2>
+<p><span class="tag tag-orange">TIER 2</span> | Markets closed for Presidents Day weekend</p>
 <table>
 <tr><th>Indicator</th><th>Value</th><th>Signal</th></tr>
-<tr><td>S&amp;P 500</td><td>-1.6% weekly</td><td class="yellow">2nd straight losing week; 200-day MA (6,498) holding</td></tr>
-<tr><td>NDX</td><td>Weekly loss</td><td class="yellow">3rd straight losing week — momentum deteriorating</td></tr>
-<tr><td>VIX</td><td>20.82</td><td class="orange">+18% Thursday spike — largest 2026 move, above 20</td></tr>
-<tr><td>10Y Yield</td><td>4.06%</td><td class="green">-4bps on soft CPI</td></tr>
-<tr><td>CPI</td><td>0.2% m/m / 2.4% y/y</td><td class="green">Below consensus — dovish signal</td></tr>
+<tr><td>VIX</td><td>19.45 (close) / 20.82 (spike)</td><td><span class="tag tag-orange">ELEVATED</span> — Largest 2026 move</td></tr>
+<tr><td>S&P 500</td><td>-1.6% weekly</td><td>2nd straight losing week</td></tr>
+<tr><td>NDX</td><td>Down</td><td>3rd straight losing week</td></tr>
+<tr><td>DXY</td><td>96.86-97.00</td><td>Stable, consolidating</td></tr>
+<tr><td>10Y Yield</td><td>4.06%</td><td>Declining on soft CPI</td></tr>
+<tr><td>Gold</td><td>$5,016</td><td><span class="tag tag-yellow">DEFENSIVE BID</span> — Records</td></tr>
+<tr><td>BTC</td><td>$69,230</td><td>Choppy $66-69K range</td></tr>
+<tr><td>WTI</td><td>$62.90</td><td>Weak, 2nd weekly loss</td></tr>
 </table>
+<h3>Key Risks</h3>
 <ul>
-<li><strong>Options Flow:</strong> RIVN 223K contracts traded (+20% on earnings beat). Unidentified ticker: 5,016 puts at 170x avg daily volume — needs follow-up.</li>
-<li><strong>Key Risk:</strong> VIX declining into equity weakness = complacency setup. FINRA margin debt at records amplifies forced deleveraging risk.</li>
-<li><strong>Presidents Day Monday:</strong> Markets closed. 3-day weekend risk with thin trading expected.</li>
+<li><strong>⚠️ China ordered banks to reduce US Treasury purchases</strong> — major structural de-dollarization risk</li>
+<li><strong>⚠️ FINRA margin debt at record highs</strong> — forced deleveraging risk if VIX sustains >20</li>
+<li>AI substitution fears spreading — sell-first-assess-later regime developing</li>
+<li>VIX declining into equity weakness = potential complacency setup</li>
+<li>3-day weekend risk (Presidents Day Monday)</li>
+</ul>
+<h3>Notable Flow</h3>
+<ul>
+<li>RIVN: 223,791 options contracts (+20% on Q4 beat)</li>
+<li>Unknown ticker: 5,016 put contracts at 170x avg daily volume — needs ID</li>
 </ul>
 </div>
 
-<!-- MACRO INDICATORS -->
+<!-- MACRO -->
 <div class="card">
 <h2>🌐 Macro Indicators</h2>
 <table>
-<tr><th>Indicator</th><th>Level</th><th>Assessment</th></tr>
-<tr><td>USD/JPY</td><td>152.9</td><td class="green">Stable — no carry unwind</td></tr>
-<tr><td>DXY</td><td>96.88–97.00</td><td>Consolidating near 97</td></tr>
-<tr><td>BTC</td><td>$68,889–$69,280</td><td class="yellow">Choppy (-5% weekly, +3.47% intraday)</td></tr>
-<tr><td>Gold</td><td>$5,000–$5,047</td><td class="orange">Record highs — defensive bid strong</td></tr>
-<tr><td>WTI Crude</td><td>$62.60–$62.89</td><td class="yellow">Weak — IEA 3.7M bpd surplus</td></tr>
-<tr><td>Credit Spreads</td><td>Stable (implied)</td><td class="green">No blowout; FRED T+1 lag</td></tr>
+<tr><th>Indicator</th><th>Value</th><th>Note</th></tr>
+<tr><td>CPI (headline m/m)</td><td>0.2%</td><td>Below 0.3% consensus — dovish</td></tr>
+<tr><td>CPI (headline y/y)</td><td>2.4%</td><td>Lowest since May — below 2.5% est</td></tr>
+<tr><td>CPI (core m/m)</td><td>0.3%</td><td>In line</td></tr>
+<tr><td>USD/JPY</td><td>152.9</td><td>Stable — no carry unwind</td></tr>
+<tr><td>Repo Market</td><td>Normal</td><td>No liquidity stress</td></tr>
+<tr><td>Credit Spreads</td><td>Stable (implied)</td><td>No blowout reports</td></tr>
 </table>
-<p><strong>⚠️ CRITICAL:</strong> China ordered banks to reduce US Treasury purchases (Bloomberg, 7hrs ago). Major structural demand risk — de-dollarization acceleration. Watch TIC data for confirmation.</p>
-<p class="muted"><strong>Next Week:</strong> Q4 GDP first estimate + FOMC minutes.</p>
+<p><strong>Next catalysts:</strong> Q4 GDP first estimate + FOMC minutes next week</p>
 </div>
 
-<!-- AI REVOLUTION WATCH -->
+<!-- AI WATCH -->
 <div class="card">
 <h2>🤖 AI Revolution Watch</h2>
-<p><span class="tag tag-yellow">Repricing Risk: 82/100</span> <span class="tag tag-blue">STABLE — No 10x efficiency trigger</span></p>
-
-<h3>Key Developments (72-Hour Window)</h3>
+<p>Repricing Risk: <strong>82/100</strong> (STABLE — no deflationary trigger)</p>
+<h3>Key Developments (72h)</h3>
 <ul>
-<li><strong>ByteDance Volcano Engine (Today):</strong> Doubao LLM 2.0, Seedance 2.0, Seedream 5.0 — major Chinese multimodal upgrade. Monitor for benchmarks.</li>
-<li><strong>Anthropic $30B Raise at $380B Valuation:</strong> 2nd largest VC deal ever. 1,300% YoY revenue growth validates AI monetization thesis.</li>
-<li><strong>Meta $10B Data Center (Indiana):</strong> 1GW campus, late 2027 operations. Sustains hyperscaler capex narrative.</li>
-<li><strong>NVIDIA Vera Rubin Platform:</strong> NVL72 at 260 TB/s (double GB300). H2 2026 launch reinforces GPU moat.</li>
-<li><strong>Chinese Spring Festival Blitz (Feb 15+):</strong> DeepSeek V4 speculation, Qwen 3.5 imminent, coordinated model releases.</li>
-<li><strong>Agentic AI Era:</strong> OpenAI Frontier enterprise platform launched Feb 6. MCP ecosystem expanding. "SaaSpocalypse" narrative emerging.</li>
+<li><strong>Anthropic:</strong> $30B funding at $380B valuation (2nd largest VC deal ever); 1,300% YoY revenue growth</li>
+<li><strong>Meta:</strong> $10B, 1GW AI data center groundbreaking in Indiana (operations late 2027)</li>
+<li><strong>NVIDIA:</strong> Vera Rubin platform teased — NVL72 rack at 260 TB/s bandwidth (H2 2026 launch)</li>
+<li><strong>ByteDance:</strong> Volcano Engine major upgrades today — Doubao LLM 2.0, Seedance 2.0, Seedream 5.0</li>
+<li><strong>Gemini 3 Deep Think:</strong> Now outperforms GPT-5.2 and Claude Opus 4.6 on reasoning benchmarks</li>
+<li><strong>MCP Ecosystem:</strong> Expanding (Solana, Excalidraw, IQ Labs) — agentic tooling standardization accelerating</li>
+<li><strong>UN Security Council:</strong> Warning on global military AI regulation — autonomous weapons concern</li>
 </ul>
-
-<h3>Equity Impact</h3>
-<table>
-<tr><th>Ticker</th><th>Signal</th><th>Driver</th></tr>
-<tr><td>NVDA</td><td class="green">CRITICAL +</td><td>Blackwell dominance, Vera Rubin, Meta capex</td></tr>
-<tr><td>MSFT</td><td class="green">HIGH +</td><td>Anthropic partnership, Azure expansion</td></tr>
-<tr><td>META</td><td class="green">MEDIUM +</td><td>$10B data center, MTIA custom silicon</td></tr>
-<tr><td>GOOGL</td><td class="yellow">MIXED</td><td>Gemini 3 outperforms rivals but TPU locked to GCP</td></tr>
-<tr><td>AMD</td><td>NEUTRAL</td><td>7-8% share, no breakout signals</td></tr>
-</table>
-
-<p class="muted"><strong>Watchpoint:</strong> Chinese Spring Festival model releases (Feb 15-22) could trigger overnight repricing if agent efficiency exceeds US peers by >10x.</p>
+<h3>Chinese Spring Festival Model Blitz (Feb 15+)</h3>
+<ul>
+<li>DeepSeek V4 speculation mounting; context window updated to 10M tokens</li>
+<li>Alibaba Qwen 3.5 expected launch within weeks</li>
+<li>Open-source as asymmetric response to US export controls</li>
+</ul>
+<p class="muted">Watchpoints: ByteDance releases today; DeepSeek V4 timing; EU AI Act Aug 2 enforcement deadline.</p>
 </div>
 
 <!-- WORLD NEWS -->
 <div class="card">
-<h2>🌍 World News — Top 5</h2>
-<table>
-<tr><th>#</th><th>Story</th><th>Cross-Domain Flags</th></tr>
-<tr><td>1</td><td><strong>US Deploys 2nd Carrier to Middle East</strong> — Ford + Lincoln, potential weeks-long campaign</td><td><span class="tag tag-red">Defense</span><span class="tag tag-orange">Energy</span><span class="tag tag-red">Nuclear</span></td></tr>
-<tr><td>2</td><td><strong>Russia-Ukraine Peace Talks Move to Geneva</strong> — Feb 17-18. EU discussing reduced US reliance.</td><td><span class="tag tag-yellow">Defense</span><span class="tag tag-yellow">Energy</span></td></tr>
-<tr><td>3</td><td><strong>NATO Exercises Reveal Unpreparedness</strong> — Estonia drills expose transparent battlefield vulnerabilities.</td><td><span class="tag tag-orange">Defense</span></td></tr>
-<tr><td>4</td><td><strong>Japan-China Maritime Tensions</strong> — Fishing boat seizure in EEZ; Beijing protests.</td><td><span class="tag tag-yellow">Asia-Pac</span></td></tr>
-<tr><td>5</td><td><strong>North Korea Threatens "Dire Consequences"</strong> — Kim Yo-jong warns South Korea over drone incursions.</td><td><span class="tag tag-yellow">Korea</span></td></tr>
-</table>
+<h2>🌍 World News — Top 5 Stories</h2>
+<ol style="padding-left:18px">
+<li><strong>US deploys second carrier to Middle East</strong> — Ford + Lincoln dual deployment; Trump confirms potential weeks-long campaign readiness <span class="tag tag-red">TIER 1</span></li>
+<li><strong>Russia-Ukraine peace talks move to Geneva Feb 17-18</strong> — European defense autonomy debate at Munich Security Conference <span class="tag tag-orange">TIER 2</span></li>
+<li><strong>NATO exercises expose Alliance unpreparedness</strong> — WSJ: Estonian Hedgehog exercise commander reaction: "We are finished"</li>
+<li><strong>Japan-China maritime tensions</strong> — Fishing boat seizure in EEZ; Beijing protests enforcement</li>
+<li><strong>North Korea threatens South Korea</strong> — Kim Yo-jong warns of "dire consequences" over drone incursions</li>
+</ol>
 </div>
 
 <!-- THREAT VECTORS -->
 <div class="card">
-<h2>⚠️ Threat Vectors</h2>
+<h2>🎯 Threat Vector Grid</h2>
 <table>
-<tr><th>Vector</th><th>Status</th><th>Detail</th></tr>
-<tr><td>☀️ Solar</td><td class="green">NOMINAL</td><td>Kp 0.33-2.67. Minor G1 storm expected Feb 15-16.</td></tr>
-<tr><td>🧬 Biological</td><td class="green">NOMINAL</td><td>Nipah: 2 cases India, 1 fatal Bangladesh. No sustained H2H. Chikungunya in Seychelles.</td></tr>
-<tr><td>🌍 Seismic</td><td class="green">NOMINAL</td><td>M6.4 Vanuatu (remote, low impact). Green alert.</td></tr>
-<tr><td>🔌 Grid/Cyber</td><td class="yellow">ELEVATED</td><td>Active exploitation: CVE-2024-43468 (SCCM RCE), CVE-2025-40551 (SolarWinds). CISA KEV.</td></tr>
-<tr><td>✈️ Airspace</td><td class="yellow">ELEVATED</td><td>El Paso National Defense Airspace (10-mile radius, 18K ft, 10 days). Counter-drone ops; deadly force authorized. Unprecedented peacetime designation.</td></tr>
-<tr><td>🤖 AI Repricing</td><td class="green">NOMINAL</td><td>China AI satellite constellation. No commercial model repricing event.</td></tr>
+<tr><th>Vector</th><th>Status</th><th>Key Finding</th></tr>
+<tr><td>☀️ Solar</td><td><span class="tag tag-green">NOMINAL</span></td><td>Kp 0.33-2.67; minor G1 storm expected Feb 15-16</td></tr>
+<tr><td>🦠 Biological</td><td><span class="tag tag-green">NOMINAL</span></td><td>Nipah: 2 cases India + 1 fatal Bangladesh; no sustained H2H</td></tr>
+<tr><td>🌍 Seismic</td><td><span class="tag tag-green">NOMINAL</span></td><td>M6.4 Vanuatu (remote, GREEN alert)</td></tr>
+<tr><td>⚡ Grid</td><td><span class="tag tag-yellow">ELEVATED</span></td><td>SCCM + SolarWinds vulns target enterprise infrastructure</td></tr>
+<tr><td>💻 Cyber</td><td><span class="tag tag-yellow">ELEVATED</span></td><td>BeyondTrust CVSS 9.9 actively exploited; 6 MS zero-days</td></tr>
+<tr><td>✈️ Airspace</td><td><span class="tag tag-yellow">ELEVATED</span></td><td>El Paso national defense airspace (counter-drone); deadly force authorized</td></tr>
 </table>
 </div>
 
@@ -290,59 +471,69 @@ li{margin-bottom:4px;font-size:0.9rem}
 <div class="card">
 <h2>🔗 Cross-Domain Correlations</h2>
 <ul>
-<li><strong>Domestic Crisis + DHS Shutdown + FTO Enforcement:</strong> Law enforcement credibility collapse occurs precisely as DHS loses funding. Federal capacity to manage border security, counter-cartel ops, and immigration enforcement degraded simultaneously. <span class="red">CRITICAL convergence.</span></li>
-<li><strong>Iran Buildup + Energy Flat + Options Silent:</strong> Dual carrier deployment with no defense/energy sector positioning = markets pricing protracted pressure vs. imminent strike. If timeline compresses, energy/defense repricing would be violent.</li>
-<li><strong>China Treasury Directive + Gold $5K + VIX 20.82:</strong> De-dollarization acceleration + record defensive positioning + elevated volatility = structural risk regime forming. Watch for foreign CB contagion.</li>
-<li><strong>FTO-to-Geopolitical:</strong> Ford redeployment from Caribbean (SOUTHCOM counter-narco zone) to CENTCOM (Iran) reduces naval presence in drug interdiction theater. Cartel kinetic strike authority + reduced naval assets = capacity strain.</li>
-<li><strong>Domestic-to-Macro:</strong> 37K tech layoffs + AI substitution fears driving market sell-first-assess-later regime. DHS shutdown adds government worker furlough to economic headwinds. LAUSD crisis signals public sector budget stress.</li>
-<li><strong>Absence-of-Signal in Options:</strong> No XLE call surge, no defense stock positioning despite dual carrier deployment = either institutional complacency or belief in signaling vs. execution. Divergence warrants monitoring.</li>
+<li><strong>China-Taiwan → Semiconductor:</strong> 42-aircraft ADIZ incursion + Applied Materials $252M fine + TSMC $52-56B capex = any Taiwan disruption is existential semiconductor risk. TSM stock = canary. <span class="new-badge">NEW</span></li>
+<li><strong>Russia-NATO → Energy:</strong> Druzhba pipeline still burning (Jan 27) suspends oil transit to Hungary/Slovakia. Ukrainian deep strikes on Russian refineries (1,750km). EU energy supply chain degraded but crude pricing flat ($62.90) due to IEA surplus. <span class="new-badge">NEW</span></li>
+<li><strong>Cyber → Infrastructure:</strong> BeyondTrust (CVSS 9.9) + Microsoft ConfigMgr (CVSS 9.8) actively exploited = enterprise management infrastructure under siege. ICS/SCADA attack trend accelerating in manufacturing/healthcare. <span class="new-badge">NEW</span></li>
+<li><strong>Supply Chain → Market:</strong> Hormuz escalation risk + declining container rates + China Treasury directive = convergent stress on global trade mechanics. Container rate decline signals demand softness aligning with S&P weakness. <span class="new-badge">NEW</span></li>
+<li><strong>Persian Gulf → Dual Theater:</strong> Ford redeployment to Middle East creates Indo-Pacific carrier gap; Chinese satellite-enabled Iranian ASBM targeting changes carrier vulnerability calculus</li>
+<li><strong>FTO → Geopolitical:</strong> SOUTHCOM Caribbean lethal strike (counter-cartel) + Ford carrier redeployment = US force posture stretched across 3+ theaters simultaneously</li>
+<li><strong>Domestic → Macro:</strong> DHS shutdown during 37K tech layoffs + record margin debt + measles outbreak = compound institutional stress. Congressional gridlock blocks fiscal response.</li>
+<li><strong>Domestic → Geopolitical:</strong> Constitutional crisis (Guard federalization, law enforcement perjury) degrades US governance credibility during peak multi-theater military operations</li>
 </ul>
 </div>
 
 <!-- ABSENCE OF SIGNAL -->
 <div class="card">
-<h2>👁️ Absence-of-Signal Monitor</h2>
+<h2>👁️ Absence-of-Signal Analysis</h2>
 <ul>
-<li><strong>High Yield OAS:</strong> No fresh data (FRED T+1 lag). Implied stable but unconfirmed.</li>
-<li><strong>VIX Term Structure:</strong> No detailed backwardation data available.</li>
-<li><strong>Utilities XLU:</strong> Zero search results — weekend data gap.</li>
-<li><strong>Copper Price:</strong> No 24h data (Gold/Copper ratio incomplete).</li>
-<li><strong>FINRA Margin Debt:</strong> Monthly publication — no Feb data. Record highs referenced from seeking alpha.</li>
-<li><strong>Frontier AI Releases:</strong> No new GPT-5/Claude 4/Llama 4 in 24h window. Labs quiet — possible pre-Spring Festival positioning.</li>
-<li><strong>Persian Gulf NOTAMs:</strong> None detected — pre-strike phase, not execution window.</li>
+<li><strong>No Persian Gulf NOTAMs:</strong> Despite dual carrier deployment — suggests pre-strike phase, not execution window</li>
+<li><strong>No defense sector options positioning:</strong> Institutions not hedging for imminent kinetic action</li>
+<li><strong>No E-4B/E-6B surge:</strong> NC3 completely quiet despite TIER 1 domestic crisis and Middle East escalation</li>
+<li><strong>No Taiwan Strait US transit:</strong> Indo-Pacific carrier presence reduced; no deterrence signal sent</li>
+<li><strong>No new Russian nuclear threats:</strong> Despite Geneva talks approaching and Ukrainian deep strikes</li>
+<li><strong>No confirmed US critical infrastructure cyber compromise:</strong> Despite CVSS 9.9 BeyondTrust exploitation</li>
+<li><strong>No DeepSeek V4 or frontier model releases:</strong> AI labs quiet between Spring Festival releases</li>
+<li><strong>No high-yield spread blowout:</strong> Credit markets stable despite equity weakness and China Treasury directive</li>
+<li><strong>Overdue:</strong> Oil futures volatility response to Hormuz threats; VIX term structure data; BDI fresh reading</li>
 </ul>
 </div>
 
 <!-- ACTION ITEMS -->
 <div class="card">
-<h2>🎯 Action Items for Jim</h2>
-<ol>
-<li><strong>Monitor DHS Shutdown Duration:</strong> Essential personnel continue, but prolonged shutdown during institutional crisis degrades security posture. Track Congressional return timeline.</li>
-<li><strong>Watch China Treasury Directive Confirmation:</strong> TIC data will confirm if PBOC order translates to actual selling. Structural USD demand risk.</li>
-<li><strong>Assess VIX Persistence Above 20:</strong> If sustained post-Presidents Day, signals regime shift. FINRA margin debt at records = forced deleveraging risk. Consider hedging if not already positioned.</li>
-<li><strong>Track Persian Gulf NOTAMs:</strong> 72-hour indicator for strike window. Absence = preparation phase continues.</li>
-<li><strong>Monitor Gold Breakout:</strong> Above $5,080 = acceleration to $5,400. Defensive rotation signal strengthening.</li>
-<li><strong>Watch Chinese Spring Festival AI Releases (Feb 15-22):</strong> DeepSeek V4 or ByteDance benchmarks could trigger overnight tech repricing.</li>
-</ol>
+<h2>🎬 Action Items</h2>
+<table>
+<tr><th>Priority</th><th>Action</th><th>Domain</th></tr>
+<tr><td><span class="tag tag-red">IMMEDIATE</span></td><td>Monitor DHS shutdown duration and essential personnel retention</td><td>Domestic</td></tr>
+<tr><td><span class="tag tag-red">IMMEDIATE</span></td><td>Patch BeyondTrust RS/PRA (CVE-2026-1731) — deadline Feb 16</td><td>Cyber</td></tr>
+<tr><td><span class="tag tag-red">IMMEDIATE</span></td><td>Watch for Persian Gulf NOTAMs (72-hr strike window indicator)</td><td>Persian</td></tr>
+<tr><td><span class="tag tag-orange">HIGH</span></td><td>Track Geneva peace talks Feb 17-18 outcomes</td><td>Russia-NATO</td></tr>
+<tr><td><span class="tag tag-orange">HIGH</span></td><td>Monitor PLA activity during Lunar New Year window (Feb 17-23)</td><td>China-Taiwan</td></tr>
+<tr><td><span class="tag tag-orange">HIGH</span></td><td>Track Hormuz tanker transits and Iranian naval movements</td><td>Supply Chain</td></tr>
+<tr><td><span class="tag tag-orange">HIGH</span></td><td>Watch VIX persistence above 20 — backwardation = crisis signal</td><td>Markets</td></tr>
+<tr><td><span class="tag tag-orange">HIGH</span></td><td>Monitor SOUTHCOM kinetic strike authorities for additional engagements</td><td>FTO</td></tr>
+<tr><td><span class="tag tag-yellow">MEDIUM</span></td><td>Track China Treasury selling confirmation via TIC data</td><td>Macro</td></tr>
+<tr><td><span class="tag tag-yellow">MEDIUM</span></td><td>Monitor ByteDance/DeepSeek releases during Spring Festival</td><td>AI</td></tr>
+</table>
 </div>
 
 <!-- WATCHLIST -->
 <div class="card">
-<h2>📋 Watchlist — Monitor Today</h2>
+<h2>📋 Watchlist — Next 72 Hours</h2>
 <ul>
-<li>DHS shutdown: Congressional statements, essential service disruptions</li>
-<li>National Guard cities: Protest activity, civil unrest indicators</li>
-<li>ICE perjury investigation: Additional charge dismissals or officer indictments</li>
-<li>Persian Gulf: NOTAM issuance, carrier AIS positions, Iran state media</li>
-<li>E-4B/E-6B: Any Offutt/Tinker/Travis departures</li>
-<li>VIX futures: Monday open tone-setting</li>
-<li>China Treasury follow-through: Other central bank statements</li>
-<li>El Paso TFR: Duration extension or expansion</li>
-<li>ByteDance Doubao 2.0 benchmarks: Overnight repricing risk</li>
-<li>Ukraine-Russia Geneva talks (Feb 17-18): Pre-positioning signals</li>
+<li><strong>Presidents Day Monday:</strong> Markets closed, thin liquidity; 3-day weekend risk</li>
+<li><strong>Geneva Peace Talks:</strong> Feb 17-18 — first trilateral US-Ukraine-Russia talks on European soil</li>
+<li><strong>Lunar New Year:</strong> Feb 17-23 — PLA operational pause or escalation window; Chinese AI model releases</li>
+<li><strong>DHS Shutdown:</strong> Congressional recess until late Feb — minimum 10-day duration</li>
+<li><strong>Persian Gulf NOTAMs:</strong> 72-hour leading indicator for strike window</li>
+<li><strong>BeyondTrust patch deadline:</strong> Feb 16 — CVSS 9.9 actively exploited</li>
+<li><strong>Fed speakers:</strong> Rate path guidance after soft CPI</li>
+<li><strong>Q4 GDP + FOMC minutes:</strong> Next week market catalysts</li>
+<li><strong>Gold breakout:</strong> $5,080 = acceleration above records</li>
+<li><strong>E-4B/E-6B sorties:</strong> Any surge = DEFCON change indicator</li>
 </ul>
 </div>
 
+<!-- FOOTER -->
 <hr style="border:none;border-top:1px solid #e2e8f0;margin:16px 0;">
 <p style="font-size:12px;color:#64748b;">© 2026 <strong>AlphaOne LLC</strong>. All rights reserved.<br>
 Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#1a56db;" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</a>.</p>
